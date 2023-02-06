@@ -144,8 +144,7 @@ thead {
   font-weight: bold;
 }
 
-td,
-th {
+td, th {
   border: 1px solid #000000;
   padding: 8px 15px;
 }
@@ -227,7 +226,7 @@ th {
 }
 
 .itens:before {
-  content: '🟊';
+  content: '✺';
 }
 
 .imagem-beneficios {
@@ -273,8 +272,7 @@ th {
     margin: 0px 10px 1em;
   }
 
-  .lista-beneficios,
-  .imagem-beneficios {
+  .lista-beneficios, .imagem-beneficios {
     width: 100%;
     margin: 10px auto;
   }
