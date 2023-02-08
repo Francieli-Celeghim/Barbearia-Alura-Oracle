@@ -39,3 +39,10 @@ Cálculos no CSS
 Como usar as medidas proporcionais para deixar um elemento de 100% de largura com o equivalente a um terço do elemento pai, menos 10px?
 Resposta: width: calc( (100% / 3) - 10px );
 Resposta: width: calc( 33% - 10px );
+
+Como fazer uma sombra interna em um elemento?
+box-shadow: inset 0 0 5px black; = Sombra interna, preta, com 5px de espalhamento.
+
+Design responsivo
+Como marcar um elemento para que ele seja apresentado de outra forma, em uma tela de até 480px?
+Dentro do @media (max-width: 480px) {} É dentro dessa media query que criamos um estilo visual que compreenda telas de até 480px.
